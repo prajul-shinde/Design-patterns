@@ -1,0 +1,7 @@
+package Factory1;
+
+public interface Notification {
+	void notifyUser();
+	
+
+}

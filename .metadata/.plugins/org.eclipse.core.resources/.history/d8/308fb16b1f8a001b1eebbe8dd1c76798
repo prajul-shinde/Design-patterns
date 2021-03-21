@@ -1,0 +1,13 @@
+package Factory1;
+
+public class Test {
+	public static void main(String[] args) {
+		NotificationFactory factory=new NotificationFactory();
+		Notification notification = factory.sendNotification("SMS");
+		notification.notifyUser();
+		Notification notification2 = factory.sendNotification("Email");
+		notification2.notifyUser();
+		
+	}
+
+}
