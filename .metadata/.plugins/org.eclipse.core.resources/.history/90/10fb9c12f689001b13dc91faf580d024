@@ -1,0 +1,10 @@
+package singleton;
+
+public class SingletonDemoExample {
+public static void main(String[] args) {
+	SingletonDemo instance = SingletonDemo.getInstance();
+	System.out.println(instance);
+	SingletonDemo instance2 = SingletonDemo.getInstance();
+	System.out.println(instance2);
+}
+}
